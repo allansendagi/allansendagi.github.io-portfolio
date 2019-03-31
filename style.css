@@ -1,0 +1,501 @@
+ul {
+  padding: 0;
+  list-style: none;
+}
+.twitter {
+  display: flex;
+  margin: 15px;
+}
+.twitter_bird {
+  margin-left: auto;
+  margin-right: auto
+}
+
+.twitter {
+  height: 46px;
+  align-items: center;
+  /*padding: 0 10px;*/
+  /*border: 1px solid rgba(238,238,238 ,1);*/
+  /*border-radius: 5px;*/
+  color: #CDCDCD;
+  /*box-shadow: 5px 10px 20px -20px rgba(85,172,238 ,1);*/
+}
+.twitter li {
+  cursor: pointer;
+}
+.twitter li:hover{
+  color: #224a54;
+}
+/*.twitter__bird {
+  color: rgba(85,172,238 ,1);
+  font-size: 1.3em;
+}*/
+/*.twitter li:not(:last-child):not(.twitter__bird) {
+  margin-right: 10px;
+}*/
+/*.twitter li  i:not(.fa-twitter):not(.fa-search):not(.fa-user-circle-o) {
+  margin-right: 3px;
+}*/
+
+/*nav-bar*/
+
+
+.some-page-wrapper {
+  margin: 75px;
+  /*background-color: red;*/
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+.grey-column {
+	background-color: none;
+	height: 220px;
+	align-self: center;
+}
+.ampersand {
+  font-family: Baskerville, "EB Garamond", serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  /*margin-right: -0.1em;*/
+  /*margin-left: -0.1em;*/
+}
+.orange-column {
+	background-image: url("photo.jpg");
+  background-size: cover;
+  /*background-repeat:no-repeat;*/
+	height: 575px;
+  background-position: center;
+}
+.yellow-column {
+    background-color: #224a54;
+    height: 650px;
+}
+.black-column {
+  background-color: black;
+    height: 650px;
+}
+.brown-column {
+  /*display: flex;*/
+  height: 650px;
+  background-image: url("robofriends.png");
+  background-size: cover;
+  /*background-repeat:no-repeat;*/
+  background-position: center;
+
+}
+.red-column {
+  background-color: #8F5873;
+    height: 650px;
+}
+.almond-column {
+  height: 575px;
+  background-image: url("git.jpg");
+  background-size: cover;
+  /*background-repeat:no-repeat;*/
+  background-position: center;
+}
+
+.biege-column {
+  background-image: url("css.png");
+  background-size: cover;
+  /*background-repeat:no-repeat;*/
+  /*height: 650px;*/
+  background-position: center;
+  background-color: red;
+  height: 575px;
+
+}
+
+
+
+.line {
+  display: block;
+  position: relative;
+  height: 3px;
+  background-color: #224a54;
+  width: 60px;
+  /*right: 0;*/
+  margin: 100px auto 7px;
+}
+.text2 {
+  font-size: 42px;
+  font-family: "EB Garamond",serif;
+  /*text-decoration: none;*/
+  color: #224a54;
+  text-align: center;
+  display: block;
+  font-weight: 400;
+    padding-top: 1em;
+    /*padding-bottom: 1em;*/
+
+  /*line-height: 1.3em;*/
+  /*vertical-align: baseline;*/
+
+  /*padding-left: 35px;*/
+}
+.text1 {
+  color: #224a54;
+  margin: 50px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.9em;
+  font-family: Inter UI,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+}
+.pink-column {
+  background-image: url("project1.png");
+  background-size: cover;
+  /*background-repeat:no-repeat;*/
+  /*height: 650px;*/
+  background-position: center;
+	/*background-color: pink;*/
+	height: 575px;
+}
+
+.blue-column {
+  background-color:#e9c3b8;
+  height: 650px;
+
+}
+
+.green-column {
+  /*background-color:#1f4954;*/
+  /*height: 650px;*/
+  background-image: url("image1.jpg");
+  background-size: cover;
+  /*background-repeat:no-repeat;*/
+  height: 650px;
+  background-position: center;
+}
+/*.double-column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}*/
+@media screen and (min-width: 800px) {
+  .column {
+    flex: 1
+    /*font-size:0.5em;
+    padding:0;*/
+  }
+
+  .double-column {
+    flex: 2
+    /*font-size:0.5em;
+    padding:0;*/
+  }
+}
+
+.section-header {
+	/*font-size: 25vw;*/
+    font-family: Inter UI,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+    font-size: 160px;
+    font-weight: 800;
+    text-align: left;
+    z-index: 10;
+    position: relative;
+    line-height: 0.6em;
+    pointer-events: none;
+    flex: 1 100%;
+    margin-bottom: 15px;
+}
+
+.introduction {
+    /*position: absolute;*/
+    padding: 0 200px;
+    /*top: 34.5%;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    padding-top: 100px;
+    margin:auto;
+}
+
+.introductions {
+    font-family: "EB Garamond",serif;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 1.3em;
+    border: 0;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+}
+.contact {
+	/*color:inherit;*/
+	font-size: 42px;
+	text-decoration: none;
+	color: inherit;
+	text-align: left;
+	display: block;
+	padding-left: 35px;
+}
+
+.contact:hover {
+	color: #fff;
+	text-decoration: underline;
+
+}
+
+.divider {
+	height: 3px;
+    background-color: currentColor;
+    width: 60px;
+    /*right: 0;*/
+    margin: 35px;
+}
+
+.grid-text {
+	margin: 40px;
+	text-align: left;
+	font-size: 16px;
+	line-height: 1.9em;
+	padding-top: 1em;
+	font-family: Inter UI,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+	/*z-index: 10;*/
+	/*margin: 0 0 2em;*/
+}
+/*.grid-text:hover {
+	color:#fff;
+}*/
+
+ .anchor {
+		text-decoration: underline;
+		color: inherit;
+}
+
+.anchor:hover {
+	color:#fff;
+}
+#icon {
+ 	padding-left: 50px;
+ 	color: black;
+}
+#git {
+	padding-left: 0.5em;
+	color: black;
+}
+#icon:hover {
+	color:#fff;
+}
+#git:hover {
+	color:#fff;
+}
+img {
+  width:100%;
+    height:auto;
+    max-height:100%;
+}
+/*ml4*/
+.ml4 {
+  /*display:flex;*/
+  position: relative;
+  font-weight: 900;
+  font-size: 4.5em;
+}
+.ml4 .letters {
+  position: relative;
+  display:block;
+  /*margin: auto;*/
+  /*left: 1.7em;*/
+  top: 1em;
+  /*right: 0;*/
+  opacity: 0;  
+  text-align: center;
+
+}
+/*ml4*/
+
+/*ml5*/
+.ml5 {
+  position: relative;
+  /*font-weight: 300;*/
+/*  font-size: 3em;
+*/  color: #fff;
+}
+.ml5 .text-wrapper {
+  position: relative;
+  display: block;
+  padding-top: 3em;
+  /*padding-right: 0.05em;*/
+  padding-bottom: 0.3em;
+  line-height: 1em;
+  /*left: 1em;*/
+  /*top: 2em;*/
+      /*text-align: center;*/
+    text-align: center;
+
+
+}
+
+/*.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #402d2d;
+  transform-origin: 0.5 0;
+}
+*/
+.ml5 .ampersand {
+  font-family: Baskerville, "EB Garamond", serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+}
+
+.noise {
+  color: #fff;
+  margin: 30px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.9em;
+    font-family: Inter UI,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+}
+
+/*ml5*/
+
+
+
+
+
+
+
+/*overlay*/
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: all 1s;
+  background-color: #A5E0E6;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  font-size: 16px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #224a54;
+  line-height: 1.9em;  
+}
+h1 {
+  font-size: 42px;
+  font-family: "EB Garamond",serif;
+  font-weight: 400;
+}
+#button1 {
+    right: 0;
+    bottom:0;
+    left: 0;
+    position: absolute;
+    border: 2px solid black;
+    width: 170px;
+    margin: 150px auto;
+    font-size: 13pt;
+    padding: 7px 0;
+    border-radius: 6px; 
+    background-color:black;
+    color: #fff;
+
+}
+#button1:hover {
+ background-color: white;
+ color: black;
+ transition: .5s ease;
+ border: 2px solid #224a54;
+}
+#button2 {
+  border: 2px solid black;
+  width: 170px;
+  padding: 7px 0;
+  border-radius: 6px; 
+  background-color:black;
+  color: #fff;
+  font-size: 13pt;
+  margin-top: 50px;
+}
+#button2:hover {
+ background-color: white;
+ color: black;
+ transition: .5s ease;
+ border: 2px solid #224a54;
+}
+
+.p-black {
+  color: #fff;
+  margin: 30px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.9em;
+  font-family: Inter UI,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+}
+.h1-black {
+  color:#fff;
+  font-size: 42px;
+  font-family: "EB Garamond",serif;
+  text-align: center;
+  display: block;
+  font-weight: 400;
+  padding-top: 3em;
+  line-height: 1.3em; 
+}
+.black-line {
+  display: block;
+  position: relative;
+  height: 3px;
+  background-color: #fff;
+  width: 60px;
+  /*right: 0;*/
+  margin: 50px auto;
+
+}
+button {
+  cursor: pointer;
+}
+
+
+
+
+
+
