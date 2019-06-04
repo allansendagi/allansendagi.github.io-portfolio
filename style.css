@@ -126,10 +126,9 @@ ul {
 .line {
   display: block;
   position: relative;
-  height: 3px;
+  height: 1.5px;
   background-color: #224a54;
   width: 60px;
-  /*right: 0;*/
   margin: 100px auto 7px;
 }
 .text2 {
