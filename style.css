@@ -127,7 +127,7 @@ ul {
   display: block;
   position: relative;
   height: 1.5px;
-  background-color: #224a54;
+  background-color: #fff;
   width: 60px;
   margin: 100px auto 7px;
 }
@@ -135,7 +135,7 @@ ul {
   font-size: 42px;
   font-family: "EB Garamond",serif;
   /*text-decoration: none;*/
-  color: #224a54;
+  color: #fff;
   text-align: center;
   display: block;
   font-weight: 400;
@@ -148,7 +148,7 @@ ul {
   /*padding-left: 35px;*/
 }
 .text1 {
-  color: #224a54;
+  color: #fff;
   margin: 50px;
   text-align: center;
   font-size: 16px;
