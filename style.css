@@ -77,9 +77,9 @@ ul {
 .orange-column {
 	background-image: url("photo.jpg");
   background-size: cover;
-  /*background-repeat:no-repeat;*/
+  background-repeat:no-repeat;
 	height: 575px;
-  background-position: center;
+  background-position: center -50px;
   color: #26555d;
 }
 .yellow-column {
