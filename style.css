@@ -93,7 +93,7 @@ ul {
 .brown-column {
   /*display: flex;*/
   height: 650px;
-  background-image: url("robofriends.png");
+  background-color:#c44736;
   background-size: cover;
   /*background-repeat:no-repeat;*/
   background-position: center;
