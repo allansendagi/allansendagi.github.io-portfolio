@@ -93,7 +93,7 @@ ul {
 .brown-column {
   /*display: flex;*/
   height: 650px;
-  background-color:#498172;
+  background-color:#c1605c;
   background-size: cover;
   /*background-repeat:no-repeat;*/
   background-position: center;
@@ -136,7 +136,7 @@ ul {
   font-size: 42px;
   font-family: "EB Garamond",serif;
   /*text-decoration: none;*/
-  color: #26555d;
+  color: #fff;
   text-align: center;
   display: block;
   font-weight: 400;
@@ -149,7 +149,7 @@ ul {
   /*padding-left: 35px;*/
 }
 .text1 {
-  color: #26555d;
+  color: #fff;
   margin: 50px;
   text-align: center;
   font-size: 16px;
@@ -167,7 +167,7 @@ ul {
 }
 
 .blue-column {
-  background-color: #26555d;
+  background-color:#e9c3b8;
   height: 650px;
 
 }
