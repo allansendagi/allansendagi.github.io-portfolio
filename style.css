@@ -6,11 +6,7 @@ ul {
   padding: 0;
   list-style: none;
 }
-.fab-fa-linkedin {
-  display: flex;
-  margin: 15px;
-  color: #224a54;
-}
+
 .twitter {
   display: flex;
   margin: 15px;
@@ -290,7 +286,7 @@ ul {
 	color:#fff;
 }
 #icon {
- 	padding-left: 50px;
+ 	padding-left: 40px;
  	color: black;
 }
 #git {
