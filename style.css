@@ -443,7 +443,6 @@ h1 {
     background-color:black;
     color: #fff;
 
-
 }
 #button1:hover {
  background-color: white;
@@ -454,16 +453,13 @@ h1 {
 #button2 {
   border: 2px solid black;
   width: 170px;
-  padding: 7px 0;
+  /*padding: 7px 0;*/
   border-radius: 6px; 
   background-color:black;
   color: #fff;
   font-size: 13pt;
   margin-top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center
-
+  
 }
 #button2:hover {
  background-color: white;
