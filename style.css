@@ -459,7 +459,7 @@ h1 {
   color: #fff;
   font-size: 13pt;
   margin-top: 50px;
-  position: center;
+  position: absolute;
 }
 #button2:hover {
  background-color: white;
